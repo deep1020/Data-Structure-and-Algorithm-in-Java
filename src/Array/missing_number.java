@@ -1,9 +1,7 @@
 package Array;
-
 import java.util.Arrays;
-
 public class missing_number {
-
+// Find missing elements between left and right most elements in sorted array
 	public static void main(String[] args) {
 		int nums[] = {1,5,4,9};
 		int n=nums.length;
