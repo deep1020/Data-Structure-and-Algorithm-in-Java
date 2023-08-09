@@ -2,17 +2,23 @@ package String;
 
 import java.util.Arrays;
 
-public class methods_StringClass {
+public class String_methods {
     public static void main(String[] args) {
         // toUpperCase() and toLowerCase()
         String s1="Hello";
         System.out.println(s1.toUpperCase());
         System.out.println(s1.toLowerCase());
 
+        // toCharArray() -> converts the given string into a sequence of characters.
+        // returned array length is equal to the length of the string.
+        char ch[]=s1.toCharArray();
+        for(int i=0;i<ch.length;i++){
+            System.out.println(ch[i]); // Hello
+        }
+
         // trim() -> eliminates white spaces before and after the String
         String s2="  Hello  ";
-        System.out.println(s2);
-        System.out.println(s2.trim());
+        System.out.println(s2+s2.trim());
 
         // startsWith() and endsWith() -> checks whether the String starts/ends with the letters passed as arguments
         System.out.println(s1.startsWith("He")); //true

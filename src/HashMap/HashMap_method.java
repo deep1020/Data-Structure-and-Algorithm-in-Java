@@ -6,6 +6,8 @@ import java.util.Map;
 public class HashMap_method {
     public static void main(String[] args) {
         HashMap<Integer,String> map=new HashMap<Integer,String>();
+
+        // put() -> Insert specific key and value. If existing key is passed then previous value gets replaced by new value
         map.put(1,"Mango");
         map.put(2,"Apple");
         map.put(3,"Banana");
@@ -13,6 +15,8 @@ public class HashMap_method {
         map.put(null,"Strawberry"); // trying multiple null keys
         map.put(1,"Grapes"); //trying duplicate key
         System.out.println("Iterating Hashmap...");
+        // entrySet() -> create a new set and store map elements into them. Doesn't take any parameter
+        // returns a set having same elements as the hash map.
         for(Map.Entry m : map.entrySet()){
             System.out.println(m.getKey()+" "+m.getValue());
         }

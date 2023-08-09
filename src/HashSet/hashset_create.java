@@ -1,4 +1,4 @@
-package Hashing;
+package HashSet;
 import java.util.*;
 
 public class hashset_create {

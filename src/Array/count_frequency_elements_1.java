@@ -1,6 +1,6 @@
 package Array;
-import java.util.Arrays;
-public class count_frequency_elements {
+
+public class count_frequency_elements_1 {
 
 	public static void main(String[] args) {
 		int arr[] = {1, 2, 3, 4, 2, 7, 2, 8, 3};
@@ -25,5 +25,6 @@ public class count_frequency_elements {
             System.out.println(arr[i] +" is repeated "+count+" times in given array");
         }
 	}
-
 }
+// T.C -> O(n^2)
+// S.C -> O(n)

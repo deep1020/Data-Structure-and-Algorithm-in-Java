@@ -1,7 +1,7 @@
 package String;
 // Java StringBuffer class is used to create mutable (modifiable) String objects.
 // The StringBuffer class in Java is the same as String class except it is mutable i.e. it can be changed.
-public class methods_StringBuffer {
+public class StringBuffer_methods {
     public static void main(String[] args) {
         StringBuffer sb1=new StringBuffer("Hello ");
         sb1.append("Java");
