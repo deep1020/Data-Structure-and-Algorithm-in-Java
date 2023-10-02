@@ -15,5 +15,4 @@ public class sorting_sort_method {
             System.out.print(num + " ");
         }
 	}
-
 }
