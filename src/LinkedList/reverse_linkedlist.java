@@ -52,12 +52,11 @@ public class reverse_linkedlist {
     public void reverseIterate(){
         Node prevNode = head;
         Node currNode = head.next;
-        Node nextNode = null;
         if(head==null || head.next==null){
             return;
         }
         while (currNode!=null){
-            nextNode = currNode.next;
+            Node nextNode = currNode.next;
             currNode.next = prevNode;
             //update
             prevNode = currNode;
