@@ -8,10 +8,17 @@ public class immutable_string {
 
 	public static void main(String[] args) {
 		String str="Hello";
+		//immutable
 		str.concat("world");
 		System.out.println(str);
 
+		// mutable
 		str=str.concat("world");
 		System.out.println(str);
+
+		// StringBuilder mutable
+		StringBuilder sb=new StringBuilder("Hello");
+		sb.append("world");
+		System.out.println(sb.toString());
 	}
 }
