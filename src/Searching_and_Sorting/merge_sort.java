@@ -1,66 +1,48 @@
 package Searching_and_Sorting;
 
 public class merge_sort {
-    int array[];
-    int tempMergeArr[];
-    int length;
-    public static void main(String[] args) {
-        int input_arr[] = {48,36,13,52,19,94,21};
-        System.out.println("Given Array");
-        for (int i:input_arr){
-            System.out.print(i+" ");
+
+    static void divide(int arr[],int left,int right){
+        // In case further division is not possible when we have only one element remained, return from that point
+        if(left>=right){
+            return;
         }
-        System.out.println("\nAfter Sorting Array");
-        merge_sort ms=new merge_sort();
-        ms.sort(input_arr);
-        for (int i:input_arr){
-            System.out.print(i+" ");
-        }
+        int mid=left+(right-left)/2;
+        divide(arr,left,mid);
+        divide(arr,mid+1,right);
+        conquer(arr,left,mid,right);
     }
-    public void sort(int input_arr[]){
-        // declare input_arr array in instance variable
-        this.array=input_arr;
-        this.length=input_arr.length;
-        // create temp array and declare size
-        this.tempMergeArr=new int[length];
-        divideArray(0,length-1);
-    }
-    public void divideArray(int left,int right){
-        if(left<right){
-            int middle=left+(right-left)/2;
-            // It will sort left side of array
-            divideArray(left,middle);
-            // It will sort right side of array
-            divideArray(middle+1,right);
-            mergeArray(left,middle,right);
-        }
-    }
-    public void mergeArray(int left,int middle,int right){
-        for(int i=left;i<=right;i++){
-            tempMergeArr[i]=array[i];
-        }
-        int i=left;
-        int j=middle+1;
-        int k=left;
-        while (i<=middle && j<=right){
-            // Match temporary elements of array
-            if(tempMergeArr[i]<=tempMergeArr[j]){
-                // insert/replace values in original array
-                array[k]=tempMergeArr[i];
-                i++;
+    static void conquer(int arr[],int left,int mid,int right){
+        int merge[]=new int[right-left+1]; // size= from starting to end
+        int idx1=left;
+        int idx2=mid+1;
+        int x=0;
+        while(idx1<=mid && idx2<=right){
+            if(arr[idx1]<=arr[idx2]){
+                merge[x++]=arr[idx1++];
             }
             else {
-                array[k]=tempMergeArr[j];
-                j++;
+                merge[x++]=arr[idx2++];
             }
-            // go through all values from left
-            k++;
         }
-        while(i<=middle){
-            array[k]=tempMergeArr[i];
-            k++;
-            i++;
+        // In case we already completed one array but still remain an element in another array
+        while (idx1<=mid){ // Either this loop goes
+            merge[x++]=arr[idx1++];
+        }
+        while (idx2<=right){ // or this loop goes
+            merge[x++]=arr[idx2++];
+        }
+        // copy elements of merged elements into original array
+        for(int i=0,j=left;i<merge.length;i++,j++){
+            arr[j]=merge[i];
         }
     }
-
+    public static void main(String[] args) {
+        int arr[]={6,3,9,5,2,8};
+        int n=arr.length;
+        divide(arr,0,n-1);
+        for(int i=0;i<n;i++){
+            System.out.print(arr[i]+" ");
+        }
+    }
 }
