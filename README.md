@@ -1,2 +1,1 @@
-# Data-Structures-and-Algorithms
-
+I've documented my journey of learning data structures and algorithms. I've covered a wide range of important concepts and methods, providing detailed implementations for each. Topics include Array, String, Sorting and Searching algorithms, LinkedList, HashTable, Recursion, Stack, Queue, Binary Tree Traversal, BST, Heap, and many more. Through this repository, I aim to share my understanding and provide a resource for others who are also learning or seeking reference.
