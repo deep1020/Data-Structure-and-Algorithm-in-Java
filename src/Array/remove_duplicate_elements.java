@@ -9,6 +9,7 @@ public class remove_duplicate_elements {
                 j++;
             }
         }
+
         return j;
     }
     public static void main(String[] args) {

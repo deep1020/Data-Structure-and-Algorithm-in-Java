@@ -44,8 +44,8 @@ public class prims {
         }
     }
     public static void primsAlgo(ArrayList<Edge> graph[],int V){
-        PriorityQueue<Pair> pq=new PriorityQueue<>();
-        boolean visited[]=new boolean[V];
+        PriorityQueue<Pair> pq=new PriorityQueue<>(); // Non-MST set
+        boolean visited[]=new boolean[V]; // MST set
         pq.add(new Pair(0,0));
         int mstCost=0;
         while (!pq.isEmpty()){
@@ -71,3 +71,6 @@ public class prims {
         primsAlgo(graph,V);
     }
 }
+
+// T.C -> O(ElogV)
+// S.C -> O(V+E)

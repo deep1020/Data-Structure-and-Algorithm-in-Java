@@ -19,12 +19,22 @@ public class topological_sorting {
         for(int i=0;i<graph.length;i++){
             graph[i]=new ArrayList<Edge>();
         }
+//        graph[2].add(new Edge(2,3));
+//        graph[3].add(new Edge(3,1));
+//        graph[4].add(new Edge(4,0));
+//        graph[4].add(new Edge(4,1));
+//        graph[5].add(new Edge(5,0));
+//        graph[5].add(new Edge(5,2));
         graph[2].add(new Edge(2,3));
-        graph[3].add(new Edge(3,1));
-        graph[4].add(new Edge(4,0));
-        graph[4].add(new Edge(4,1));
-        graph[5].add(new Edge(5,0));
-        graph[5].add(new Edge(5,2));
+        graph[2].add(new Edge(2,5));
+        graph[2].add(new Edge(2,6));
+        graph[3].add(new Edge(3,5));
+        graph[3].add(new Edge(3,4));
+        graph[1].add(new Edge(1,5));
+        graph[1].add(new Edge(1,4));
+        graph[1].add(new Edge(1,7));
+        graph[5].add(new Edge(5,6));
+        graph[5].add(new Edge(5,7));
     }
     public static void topologicalSort(ArrayList<Edge> graph[], int curr, boolean visited[], Stack<Integer> st){
         visited[curr]=true;
@@ -35,6 +45,9 @@ public class topological_sorting {
             }
         }
         st.push(curr);
+        while(!st.isEmpty()){
+            System.out.print(st.pop()+" ");
+        }
     }
     public static void top_sort(ArrayList<Edge> graph[],int V){
         boolean visited[]=new boolean[V];
@@ -49,7 +62,7 @@ public class topological_sorting {
         }
     }
     public static void main(String[] args) {
-        int V=6;
+        int V=8;
         ArrayList<Edge> graph[]=new ArrayList[V];
         createGraph(graph);
         top_sort(graph,V);

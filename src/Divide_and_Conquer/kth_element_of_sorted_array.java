@@ -53,3 +53,6 @@ public class kth_element_of_sorted_array {
 // T.C -> O(logn+logm) where ‘n’ is the number of elements in ‘arr1’ and ‘m’ is the number of elements in 'arr2'.
 // We do binary search on both the arrays independently, hence the complexity is order of log(n)
 // S.C -> O(1) it uses constant space
+
+// merge two array: {1,3,4,5,7,8,10,11,14}
+// 5th element is 7

@@ -16,7 +16,7 @@ public class find_index_of_maximum {
         return left;
     }
     public static void main(String[] args) {
-        int nums[]={6,3,4,2};
+        int nums[]={6,2,3,4}; // It should be sorted. Doesn't work for [6,2,3,4]
         System.out.println(findPeakElement(nums));
     }
 }

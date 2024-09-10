@@ -26,3 +26,4 @@ public class kth_smallest_element_queue {
 // T.C -> O(nlogk)
 // S.C -> O(k)
 // Collections.reverseOrder() or (a,b)->b-a leads to MaxHeap where the largest elements come to the top.
+// queue: [6,5,4,3,2,1]

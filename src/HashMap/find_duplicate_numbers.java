@@ -8,10 +8,10 @@ import java.util.Map;
 public class find_duplicate_numbers {
     static List<Integer> printDuplicates(int arr[]){
         Map<Integer, Integer> countMap = new HashMap<>();
-        List<Integer> duplicates = new ArrayList<>();
         for(int num:arr){
             countMap.put(num,countMap.getOrDefault(num,0)+1);
         }
+        List<Integer> duplicates = new ArrayList<>();
         for(Map.Entry<Integer,Integer> entry: countMap.entrySet()){
             if(entry.getValue()>1){
                 duplicates.add(entry.getKey());

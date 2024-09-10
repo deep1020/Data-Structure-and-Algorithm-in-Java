@@ -4,10 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class count_frequency_elements {
-    public static void main(String[] args) {
-        int arr[]={4,7,2,7,8,4,7,2};
-        countOccurence(arr);
-    }
     static void countOccurence(int arr[]){
         Map<Integer,Integer> map=new HashMap<>();
         // Traverse through array elements
@@ -26,7 +22,11 @@ public class count_frequency_elements {
         }
         // Traverse through map and print frequencies
         for(Map.Entry<Integer,Integer> entry : map.entrySet()){
-            System.out.println(entry.getKey()+ " -> "+entry.getValue());
+            System.out.println("Frequency of "+entry.getKey()+ " -> "+entry.getValue());
         }
+    }
+    public static void main(String[] args) {
+        int arr[]={4,7,2,7,8,4,7,2};
+        countOccurence(arr);
     }
 }

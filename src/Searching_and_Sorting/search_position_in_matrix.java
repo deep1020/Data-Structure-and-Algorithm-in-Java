@@ -1,5 +1,7 @@
 package Searching_and_Sorting;
-
+// Here n*n matrix is given.
+// Row is increasing from left to right
+// Column is decreasing from top to bottom
 public class search_position_in_matrix {
     public static int[] searchMatrix(int[][] matrix, int target) {
         int m = matrix.length;

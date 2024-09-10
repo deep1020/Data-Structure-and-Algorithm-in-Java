@@ -15,14 +15,24 @@ public class String_methods {
         for(int i=0;i<ch.length;i++){
             System.out.println(ch[i]); // Hello
         }
+        // Count freqency of each character in string
+//        int count[]=new int[26];
+//        for(char c:s1.toCharArray()){
+//            count[c-'a']++;
+//        } // OR
+//        for(int i=0;i<s1.length();i++){
+//            count[s1.charAt(i)-'a']++;
+//        }
 
         // trim() -> eliminates white spaces before and after the String
         String s2="  Hello  ";
         System.out.println(s2+s2.trim());
 
         // startsWith() and endsWith() -> checks whether the String starts/ends with the letters passed as arguments
-        System.out.println(s1.startsWith("He")); //true
-        System.out.println(s1.endsWith("O")); // false (require o)
+        String st1="Hello Java";
+        System.out.println(st1.startsWith("He")); //true
+        System.out.println(s1.endsWith("A")); // false (require a lowercase)
+        System.out.println(st1.startsWith("Ja",6)); // 'Ja' is starting at index 6 so true
 
         // charAt() -> returns a character at specified index
         System.out.println(s1.charAt(0)); //H
@@ -69,10 +79,34 @@ public class String_methods {
         System.out.println(s.substring(0,2)); //He -> startIndex: inclusive, endIndex: exclusive
         System.out.println(s.substring(2)); //llo
 
+        // startWith() method -> check whether the string starts with a specific prefix (Return true or false)
+        System.out.println("Check whether string 'Hello' start with 'H': "+s.startsWith("H"));
+
+        // compareTo() method -> compares the given string with the current string lexicographically.
+        // It returns a positive number, a negative number, or 0.
+        // If s1==s2, return 0. If s1>s2, return positive value. If s1<s2, return negative value
+        // It compares strings based on the Unicode value of each character in the strings.
+        String str1="geeksforgeeks";
+        String str2=new String("geeksforgeeks");
+        String str3="geek";
+        int comparison1=str1.compareTo(str2);
+        if(comparison1<0){
+            System.out.println(str1+" comes before "+str2+" in lexicographical order ");
+        }
+        else if(comparison1<0){
+            System.out.println(str1+" comes after "+str2+" in lexicographical order ");
+        }
+        else{
+            System.out.println(str1+" and "+str2+" are lexicographically equal");
+        }
+        int comparison2=str1.compareTo(str3);
+        System.out.println("Difference of geeksforgeeks and geeks: "+comparison2);
+
         // split() method -> split the string into another string, store an array of string object
         String text= new String("Hello, World");
         /* Splits the sentence by the delimiter passed as an argument */
         String[] sentences = text.split("\\.");
+        System.out.println("After split: "+sentences.length);
         System.out.println(Arrays.toString(sentences));
         String[] sentences2 = text.split("\\s+");
         System.out.println(Arrays.toString(sentences2));

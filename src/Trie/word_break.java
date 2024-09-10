@@ -6,10 +6,10 @@ public class word_break {
         boolean endOfWord;
         public Node(){
             children=new Node[26]; // a-z
-            for(int i=0;i<26;i++){
+            for(int i=0;i<26;i++){ // Initialize null for every node a-z
                 children[i]=null;
             }
-            endOfWord=false;
+            endOfWord=false; // Initialize false for end of word
         }
     }
     static Node root=new Node();
@@ -20,7 +20,7 @@ public class word_break {
             if(curr.children[idx]==null){ // Null value stored, create a new node
                 curr.children[idx]=new Node();
             }
-            if(i==word.length()-1){
+            if(i==word.length()-1){ // Make endOfWord true when we reach at the last node
                 curr.children[idx].endOfWord=true;
             }
             curr=curr.children[idx];

@@ -1,5 +1,5 @@
 // finding maximum sum of a subarray of size k using sliding window
-package Array;
+package Sliding_Window;
 import java.util.Map;
 public class sliding_window {
 

@@ -3,10 +3,9 @@ package Graph;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.PriorityQueue;
 
-public class shortest_path {
+public class shortest_path_dijkstra {
     static class Edge{
         int src;
         int dest;
@@ -79,3 +78,6 @@ public class shortest_path {
         dijkstra(graph,0,V);
     }
 }
+
+// T.C -> O(Elogv)
+// S.C -> O(V)

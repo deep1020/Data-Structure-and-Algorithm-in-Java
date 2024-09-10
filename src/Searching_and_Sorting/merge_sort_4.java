@@ -1,6 +1,6 @@
 package Searching_and_Sorting;
 
-public class merge_sort {
+public class merge_sort_4 {
     int array[];
     int tempMergeArr[];
     int length;
@@ -11,7 +11,7 @@ public class merge_sort {
             System.out.print(i+" ");
         }
         System.out.println("\nAfter Sorting Array");
-        merge_sort ms=new merge_sort();
+        merge_sort_4 ms=new merge_sort_4();
         ms.sort(input_arr);
         for (int i:input_arr){
             System.out.print(i+" ");
