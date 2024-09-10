@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="56eb7521-fa1d-43c7-a68a-751b83b56540" name="Changes" comment="Commit">
+      <change afterPath="$PROJECT_DIR$/src/Array/find_unpair_element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays_class/Arrays_method.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashMap/count_frequency_elements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashMap/find_duplicate_numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashMap/first_unique_character.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashSet/HashSet_method.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashSet/find_duplicate_numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashSet/remove_duplicate_from_string.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashSet/smallest_positive_number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/palindrome_linkedlist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/remove_nth_node_from_end.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/remove_nth_node_from_end_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/Heap_Deletion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/Heap_Deletion_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/Heap_Insertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/Heap_Insertion_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/binary_tree_isHeap_check.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/circular_queue_using_array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/kth_smallest_element_queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/minimum_cost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/priority_queue_method.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/queue_using_array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/queue_using_collections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/queue_using_linkedlist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/queue_using_two_stacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/sort_array_using_Heapify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/sort_array_using_queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/find_duplicate_number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/symmetric_tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Searching_and_Sorting/find_maximum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Searching_and_Sorting/merge_sort_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sliding_Window/maximum_sum_of_subarray_size_k.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/fish_alive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/symmetric_tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/binary_gap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/check_string_palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/sort_characters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringBuilder/StringBuffer_methods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringBuilder/StringBuilder_methods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringBuilder/reverse_words_StringBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Two_Pointers/check_string_palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Two_Pointers/isSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Two_Pointers/remove_duplicate_from_string.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Two_Pointers/repeated_substring_pattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Two_Pointers/reverse_array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Two_Pointers/rotate_array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Two_Pointers/sum_equals_zero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid17320.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid4012.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Array/PlusOneArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Array/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Array/SubarraySum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Array/arrayOfObjects_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Array/array_creation_static.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Array/array_insertion_static.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Array/duplicate_elements.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Java/Array/duplicate_elements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Array/find_maximum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Java/Array/find_maximum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Array/forEach_sorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Array/insert_element_arrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Array/majority_elements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Array/missing_number.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Java/Array/missing_number.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Array/remove_duplicate_elements.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Java/Array/remove_duplicate_elements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Array/search_insert_position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Array/sliding_window.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Array/sorting_elements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Array/sorting_sort_method.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Array/sumOfArrayValues.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Java/Array/sumOfArrayValues.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Array/two_sum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/ArrayList/methods_arraylist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/ArrayList/search_elements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/ArrayList/sorting_elements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/ArrayList/sum_of_number.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/BankMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Bank_Account_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/HashMap/HashMap_method.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Java/HashMap/HashMap_method.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/HashMap/count_frequency_words.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/HashMap/count_words.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/LinkedList/create_linkedlist$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/LinkedList/create_linkedlist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/LinkedList/create_linkedlist_collection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/LinkedList/delete_nth_node_from_end$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/LinkedList/delete_nth_node_from_end.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/LinkedList/reverse_linkedlist$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/LinkedList/reverse_linkedlist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/LinkedList/reverse_linkedlist_btw_range$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/LinkedList/reverse_linkedlist_btw_range.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Searching_and_Sorting/KthMissingPositiveNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Searching_and_Sorting/binary_search.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Searching_and_Sorting/bubble_sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Searching_and_Sorting/find_index_of_maximum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Searching_and_Sorting/insertion_sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Searching_and_Sorting/linear_search.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Searching_and_Sorting/merge_sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Searching_and_Sorting/quick_sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Searching_and_Sorting/selection_sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Stack/arraylist_stack$Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Stack/arraylist_stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Stack/collections_stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Stack/linkedlist_stack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Stack/linkedlist_stack$Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Stack/linkedlist_stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/Stack/methods_StackClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/String/basics_string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/String/compare_string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/String/concatenation_string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/String/count_character.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/String/count_freq_char.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/String/count_words.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/String/immutable_string.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Java/String/immutable_string.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/String/longest_common_prefix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/String/repeated_substring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/String/search_substring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_Java/String/split_method.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/PlusOneArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/PlusOneArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/SubarraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/SubarraySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/arrayOfObjects_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/arrayOfObjects_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/arrayOfObjects_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/arrayOfObjects_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/array_creation_static.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/array_creation_static.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/array_insertion_static.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/array_insertion_static.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/count_frequency_elements_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/count_frequency_elements_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/duplicate_elements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/duplicate_elements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/find_maximum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/find_maximum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/forEach_sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/forEach_sorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/insert_element_arrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/insert_element_arrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/majority_elements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/majority_elements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/missing_number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/missing_number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/remove_duplicate_elements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/remove_duplicate_elements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/search_insert_position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/search_insert_position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/sorting_elements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/sorting_elements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/sorting_sort_method.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/sorting_sort_method.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/sumOfArrayValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/sumOfArrayValues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/two_sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/two_sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayList/methods_arraylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayList/arraylist_methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayList/search_elements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayList/search_elements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayList/sorting_elements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayList/sorting_elements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayList/sum_of_number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayList/sum_of_number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bank_Account_Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Extra/chatgpt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashMap/HashMap_method.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMap/HashMap_method.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashMap/check_unique_frequencies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMap/check_unique_frequencies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashMap/count_frequency_words.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMap/count_frequency_words.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashMap/count_words.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMap/count_words.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashMap/isogram_string.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMap/isogram_string.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/create_linkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/create_linkedlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/create_linkedlist_collection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/create_linkedlist_collection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/linkedlist_cycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/linkedlist_cycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/reverse_linkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/reverse_linkedlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/reverse_linkedlist_btw_range.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/reverse_linkedlist_btw_range.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/count_paths_in_matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/count_paths_in_matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/factorial_number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/factorial_number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/fibonacci_series.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/fibonacci_series.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/find_first_last_occurance_string.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/find_first_last_occurance_string.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/keypad_combination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/keypad_combination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/move_char_to_end_string.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/move_char_to_end_string.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/move_special_char_to_end_string.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/move_special_char_to_end_string.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/permutation_string.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/permutation_string.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/power_logn_calculate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/power_logn_calculate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/power_n_calculate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/power_n_calculate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/print_numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/print_numbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/remove_duplicates_from_string.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/remove_duplicates_from_string.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/reverse_string.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/reverse_string.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/subsequences_of_string.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/subsequences_of_string.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/sum_first_n_numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/sum_first_n_numbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/sum_numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Queue/queue_method.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/tower_of_hanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/tower_of_hanoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/unique_subsequence_of_string.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/unique_subsequence_of_string.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Searching_and_Sorting/KthMissingPositiveNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Searching_and_Sorting/KthMissingPositiveNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Searching_and_Sorting/binary_search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Searching_and_Sorting/binary_search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Searching_and_Sorting/bubble_sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Searching_and_Sorting/bubble_sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Searching_and_Sorting/find_index_of_maximum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Searching_and_Sorting/find_index_of_maximum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Searching_and_Sorting/insertion_sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Searching_and_Sorting/insertion_sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Searching_and_Sorting/linear_search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Searching_and_Sorting/linear_search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Searching_and_Sorting/merge_sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Searching_and_Sorting/merge_sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Searching_and_Sorting/quick_sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Searching_and_Sorting/quick_sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Searching_and_Sorting/selection_sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Searching_and_Sorting/selection_sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/PushAtBottom_stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/PushAtBottom_stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/arraylist_stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/arraylist_stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/collections_stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/collections_stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/linkedlist_stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/linkedlist_stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/methods_StackClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/methods_StackClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/reverse_stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/reverse_stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/basics_string.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/basics_string.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/compare_string.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/compare_string.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/concatenation_string.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/concatenation_string.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/count_character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/count_character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/count_freq_char.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/count_freq_char.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/count_words.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/count_words.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/find_first_last_occurance_string.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/find_first_last_occurance_string.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/immutable_string.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/immutable_string.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/isogram_string.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/isogram_string.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/longest_common_prefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/longest_common_prefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/remove_first_last_character_string.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/remove_first_last_character_string.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/repeated_substring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/repeated_substring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/reverse_words.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/reverse_words.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/search_substring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/search_substring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/sort_by_character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/sort_by_character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/split_method.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/split_method.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ce6dd7c1-5d01-41b8-b0bf-17d1ccf5e682" />
+        <option name="url" value="https://github.com/deep1020/Data-Structures-and-Algorithms.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2OGAwHRVMLEQCezOIxV6gf4ArPB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BST.executor": "Run",
+    "Application.DFS1.executor": "Run",
+    "Application.HashMap_method.executor": "Run",
+    "Application.MinOperationsToEqual.executor": "Run",
+    "Application.MinOperationsToXOR.executor": "Run",
+    "Application.PowerfulIntegers.executor": "Run",
+    "Application.SmallestMissingInteger.executor": "Run",
+    "Application.StringBuilder_methods.executor": "Run",
+    "Application.check_unique_frequencies.executor": "Run",
+    "Application.count_frequency_elements.executor": "Run",
+    "Application.count_frequency_elements_2.executor": "Run",
+    "Application.count_frequency_elements_3.executor": "Debug",
+    "Application.count_nodes.executor": "Run",
+    "Application.diameter_of_tree.executor": "Run",
+    "Application.generate_all_subarrays.executor": "Run",
+    "Application.height_of_tree.executor": "Run",
+    "Application.immutable_string.executor": "Run",
+    "Application.isogram_string.executor": "Run",
+    "Application.keypad_combination.executor": "Run",
+    "Application.merge_sort.executor": "Run",
+    "Application.methods_arraylist.executor": "Run",
+    "Application.most_frequent_element.executor": "Run",
+    "Application.move_char_to_end_string.executor": "Run",
+    "Application.permutation_string.executor": "Run",
+    "Application.preorder_tree (1).executor": "Run",
+    "Application.preorder_tree (2).executor": "Run",
+    "Application.preorder_tree.executor": "Run",
+    "Application.priority_queue_method.executor": "Run",
+    "Application.remove_nth_node_from_end.executor": "Run",
+    "Application.reverse_stack.executor": "Run",
+    "Application.search_BST.executor": "Run",
+    "Application.sum_nodes.executor": "Run",
+    "Application.symmetric_tree (1).executor": "Run",
+    "Application.symmetric_tree (2).executor": "Run",
+    "Application.symmetric_tree (3).executor": "Run",
+    "Application.symmetric_tree (4).executor": "Run",
+    "Application.symmetric_tree (5).executor": "Run",
+    "Application.symmetric_tree.executor": "Run",
+    "Application.tree_traversal.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "Merging master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/dpatel112/Documents/Github Projects/DemoBankin-App-With-SpringBoot-master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "settings.sync",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.BST">
+    <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Binary_Search_Tree.BST" />
+      <module name="DSA_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Binary_Search_Tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generate_all_subarrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Backtracking.generate_all_subarrays" />
+      <module name="DSA_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="permutation_string" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.permutation_string" />
+      <module name="DSA_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="priority_queue_method" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Queue.priority_queue_method" />
+      <module name="DSA_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="search_BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Binary_Search_Tree.search_BST" />
+      <module name="DSA_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Binary_Search_Tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BST" />
+        <item itemvalue="Application.search_BST" />
+        <item itemvalue="Application.priority_queue_method" />
+        <item itemvalue="Application.generate_all_subarrays" />
+        <item itemvalue="Application.permutation_string" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.21-corretto-11.0.21-3183f394aec4-26afc3bf" />
+        <option value="jdk-18.0.2-corretto-18.0.2-3183f394aec4-229f571c" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="56eb7521-fa1d-43c7-a68a-751b83b56540" name="Changes" comment="" />
+      <created>1681176782802</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681176782802</updated>
+      <workItem from="1684473366823" duration="2736000" />
+      <workItem from="1684730625534" duration="525000" />
+      <workItem from="1684808984634" duration="1641000" />
+      <workItem from="1684865084242" duration="52341000" />
+      <workItem from="1685125352332" duration="5086000" />
+      <workItem from="1685246880957" duration="20000" />
+      <workItem from="1686009741129" duration="11057000" />
+      <workItem from="1686181451968" duration="23404000" />
+      <workItem from="1686341419350" duration="3881000" />
+      <workItem from="1686860256432" duration="25976000" />
+      <workItem from="1687298898459" duration="3072000" />
+      <workItem from="1687390657290" duration="4781000" />
+      <workItem from="1688590679775" duration="15912000" />
+      <workItem from="1688688557797" duration="951000" />
+      <workItem from="1688714229461" duration="25305000" />
+      <workItem from="1688948880432" duration="614000" />
+      <workItem from="1689284261566" duration="3514000" />
+      <workItem from="1689288325206" duration="16974000" />
+      <workItem from="1689368786489" duration="6100000" />
+      <workItem from="1689545302790" duration="5237000" />
+      <workItem from="1689632875598" duration="4310000" />
+      <workItem from="1689720931575" duration="21178000" />
+      <workItem from="1689810840054" duration="37855000" />
+      <workItem from="1690146145952" duration="1812000" />
+      <workItem from="1690232666394" duration="695000" />
+      <workItem from="1690233381734" duration="224000" />
+      <workItem from="1690233719963" duration="26327000" />
+      <workItem from="1690571213154" duration="26599000" />
+      <workItem from="1691646546205" duration="9250000" />
+      <workItem from="1691734218837" duration="29471000" />
+      <workItem from="1692682407553" duration="85926000" />
+      <workItem from="1693254725653" duration="5301000" />
+      <workItem from="1693419239633" duration="2738000" />
+      <workItem from="1693589007988" duration="56699000" />
+      <workItem from="1694802165015" duration="14974000" />
+      <workItem from="1695063535411" duration="23685000" />
+      <workItem from="1695844604550" duration="15790000" />
+      <workItem from="1698088402840" duration="12079000" />
+      <workItem from="1699031432811" duration="22804000" />
+      <workItem from="1699383081813" duration="45131000" />
+      <workItem from="1700109230253" duration="4425000" />
+      <workItem from="1700953230102" duration="16000" />
+      <workItem from="1701906797297" duration="1952000" />
+      <workItem from="1702400883857" duration="2215000" />
+      <workItem from="1702509549995" duration="1274000" />
+      <workItem from="1702510847296" duration="1378000" />
+      <workItem from="1702536358863" duration="4781000" />
+      <workItem from="1702838941054" duration="28186000" />
+      <workItem from="1703359202351" duration="57164000" />
+      <workItem from="1704503602340" duration="878000" />
+      <workItem from="1704550873252" duration="4187000" />
+      <workItem from="1704557504767" duration="9825000" />
+      <workItem from="1704676588032" duration="36518000" />
+      <workItem from="1715722379992" duration="731000" />
+    </task>
+    <task id="LOCAL-00001" summary="Array">
+      <created>1681243433648</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681243433648</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Searching and Sorting">
+      <created>1681246652098</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681246652098</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Array">
+      <created>1681247690185</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681247690185</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Array">
+      <created>1681247846214</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681247846214</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Commit">
+      <created>1686956899133</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686956899133</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1691567932515</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691567932516</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1691568153428</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691568153428</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1704143787995</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704143787995</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1704144943972</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704144943972</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1704152704254</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1704152704254</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Searching and Sorting" />
+    <MESSAGE value="Array" />
+    <MESSAGE value="Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+  </component>
+</project>
