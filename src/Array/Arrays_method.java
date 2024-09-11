@@ -1,4 +1,4 @@
-package Arrays_class;
+package Array;
 // containing static methods that are used with arrays in order to search, sort, compare, insert elements, or
 // return a string representation of an array
 import java.lang.reflect.Array;
