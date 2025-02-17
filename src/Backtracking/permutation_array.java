@@ -3,7 +3,7 @@ package Backtracking;
 import java.util.ArrayList;
 import java.util.List;
 
-public class generate_all_subarrays {
+public class permutation_array {
 
     static List<List<Integer>> getAllSubArrays(int arr[]){
         List<List<Integer>> resultList=new ArrayList<>();
@@ -29,6 +29,16 @@ public class generate_all_subarrays {
 }
 // Input: arr=[1,2,3]
 // Output: [[1],[1,2],[1,2,3],[2],[2,3],[3]]
+
+// Que: Why we need to remove last element or character after DFS recursive call in all backtracking problems?
+// Here we have removed last added element tempList.remove(tempList.size()-1)
+// Ans: When you add an element to tempList, you explore all subarrays that start with that element
+// After finishing the exploration for that path, you need to revert tempList to its previous state (before adding that element)
+// so that you can explore the next possible element in the array
+// Without removing the last element, the tempList would continue to grow and would not reflect the correct subarrays for different recursive paths
+
+// By removing the last element, you ensure that the next recursive call starts with the correct subarray.
+// Otherwise, you would just keep adding elements to the same subarray, generating incorrect results.
 
 // static void generateAllSubarrays(int arr[],int start,int end){
 //        if(end==arr.length){

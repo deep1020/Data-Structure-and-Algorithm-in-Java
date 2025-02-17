@@ -26,7 +26,7 @@ public class String_methods {
 
         // trim() -> eliminates white spaces before and after the String
         String s2="  Hello  ";
-        System.out.println(s2+s2.trim());
+        System.out.println("After Trim: "+s2.trim());
 
         // startsWith() and endsWith() -> checks whether the String starts/ends with the letters passed as arguments
         String st1="Hello Java";

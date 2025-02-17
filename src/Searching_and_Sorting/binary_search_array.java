@@ -29,3 +29,5 @@ public class binary_search_array {
 		}
 	}
 }
+// T.C -> O(logn)
+// S.C -> O(1)

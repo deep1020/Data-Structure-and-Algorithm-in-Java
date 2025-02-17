@@ -15,8 +15,7 @@ public class HashMap_method {
         map.put(null,"Strawberry"); // trying multiple null keys
         map.put(1,"Grapes"); //trying duplicate key
         System.out.println("Iterating Hashmap...");
-        // entrySet() -> create a new set and store map elements into them. Doesn't take any parameter
-        // returns a set having same elements as the hash map.
+        // entrySet() -> create a new set and store map elements into them. Doesn't take any parameter returns a set having same elements as the hash map.
         for(Map.Entry m : map.entrySet()){
             System.out.println(m.getKey()+" "+m.getValue());
         }
@@ -31,7 +30,9 @@ public class HashMap_method {
         for(Map.Entry m:map.entrySet()){
             System.out.println(m.getKey()+" "+m.getValue());
         }
-
+        // keySet() -> create a set out of the key elements contained in the hash map
+        // It basically returns a set view of the keys or we can create a new set and store the key elements in them
+        System.out.println("Key set is: "+map.keySet());
         // remove() method
         System.out.println("Initial list of elements: "+map);
         map.remove(3);
@@ -63,9 +64,21 @@ public class HashMap_method {
 
         System.out.println("HashMap: "+map.toString());
 
-//      getOrDefault() -> To get the value mapped with specified key.
-//      If no value is mapped with the provided key then the default value is returned.
+        // getOrDefault() -> To get the value mapped with specified key. If no value is mapped with the provided key then the default value is returned.
         String str=map.getOrDefault(2, "Juice");
         System.out.println("Returned Value: " + str);
+
+        // putIfAbsent(key,value) -> map the specified key with the specified value,
+        // only if no such key exists (or is mapped to null) in this HashMap instance.
+        map.putIfAbsent(2,"Apple"); // Add
+        map.putIfAbsent(4,"Kiwi");
+        System.out.println("New HashMap after putIfAbsent: "+map);
+
+        // computeIfAbsent(key,function) -> compute the value for a given key using the given mapping function
+        // Store the computed value for the key in Hashmap if the key is not already associated with a value (or is mapped to null) else null.
+        // Use putIfAbsent() when you have the value pre-calculated and want to avoid overwrites.
+        // Use computeIfAbsent() when the value needs to be dynamically created based on the key or when complex logic is involved in calculating the value.
+        map.computeIfAbsent(3,k->"Apple");
+        System.out.println("New HashMap after computeIfAbsent: "+map);
     }
 }

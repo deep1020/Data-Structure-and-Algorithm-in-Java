@@ -16,7 +16,6 @@ public class SmallestMissingInteger {
             } else {
                 currentSum = nums[i];
             }
-
             longestSequentialPrefixSum = Math.max(longestSequentialPrefixSum, currentSum);
         }
 
